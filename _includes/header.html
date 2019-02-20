@@ -1,0 +1,38 @@
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+<div class="topnav" id="myTopnav">
+ <a href="{{ "/" | relative_url }}" class="active"> Home</a>
+ <a href="/research/">Research</a>
+<a href="/publications/">Publications</a>
+ <!-- <a href="/news/">News</a> -->
+ <a href="/about/">About</a>
+ <!-- <a href="/challenges/">Challenges</a> -->
+ <a href="/personal/">Personal</a>
+ <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <i class="fa fa-bars"></i>
+ </a>
+</div>
+
+<div class="topnav contacts" id="contacts_bar">
+<a target="_blank" class="fa fa-facebook" href="https://www.facebook.com/dario.bellicoso"></a>
+<a target="_blank" class="fa fa-linkedin" href="https://www.linkedin.com/in/dario-bellicoso-111593109"></a>
+<a target="_blank" class="fa fa-github" href="https://github.com/dbellicoso"></a>
+<a target="_blank" class="fa fa-youtube" href="https://www.youtube.com/user/leggedrobotics"></a>
+<a target="_blank" class="fa fa-twitter" href="https://twitter.com/leggedrobotics"></a>
+<a target="_blank" class="fa fa-instagram" href="https://www.instagram.com/_dario_b_/"></a>
+<a target="_blank" class="ai ai-researchgate" href="https://www.researchgate.net/profile/Dario_Bellicoso"></a>
+<a target="_blank" class="ai ai-google-scholar-square" href="https://scholar.google.com/citations?user=ScazqGMAAAAJ&hl=en"></a>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>

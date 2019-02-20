@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-![Dario Bellicoso](/assets/images/alma_pic.png){: style="width:150px;display:block;padding:4px;border-radius:100%;display:block;float:left;"}
-<p>
+![Dario Bellicoso](/assets/images/alma_pic.png){: style="width:150px;display:block;padding:4px; margin-right:10px;border-radius:100%;display:block;float:left;"}
+<p style="text-align:justify">
 I am Dario Bellicoso, a robotics researcher at the <a href="http://www.rsl.ethz.ch">Robotic Systems Lab</a> of <a href="https://www.ethz.ch/en.html">ETH Zurich</a> focusing on motion control and planning for multi-limb walking robots. During my Ph.D., I have developed algorithms that allow a torque-controlled quadrupedal robot walk, run, jump, and open doors.  
 </p>
 <div style="padding-top:50px"></div>

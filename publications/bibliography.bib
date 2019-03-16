@@ -34,6 +34,42 @@
   url_video = {https://youtu.be/XrcLXX4AEWE},
 }
 
+@article{deviragh2019trajectory,
+  author    = {de Viragh, Yvain and
+               Bjelonic, Marko and
+               Bellicoso, C Dario and
+               Jenelten, Fabian and
+               Hutter, Marco},
+  title     = {Trajectory Optimization for Wheeled-Legged Quadrupedal Robots
+               using Linearized ZMP Constraints},
+  journal   = {IEEE Robotics and Automation Letters},
+  volume    = {4},
+  number    = {2},
+  pages     = {1633-1640},
+  year      = {2019},
+  doi       = {10.1109/LRA.2019.2896721},
+  abstract  = {We present a trajectory optimizer for quadrupedal
+               robots with actuated wheels. By solving for angular, vertical,
+               and planar components of the base and feet trajectories in a
+               cascaded fashion and by introducing a novel linear formulation of
+               the zero-moment point (ZMP) balance criterion, we rely on
+               quadratic programming only, thereby eliminating the need for
+               nonlinear optimization routines. Yet, even for gaits containing
+               full flight phases, we are able to generate trajectories for
+               executing complex motions that involve simultaneous driving,
+               walking, and turning. We verified our approach in simulations of
+               the quadrupedal robot ANYmal equipped with wheels, where we are
+               able to run the proposed trajectory optimizer at 50 Hz. To the
+               best of our knowledge, this is the first time that such dynamic
+               motions are demonstrated for wheeled-legged quadrupedal robots
+               using an online motion planner.},
+  keywords  = {legged robots, wheeled robots,
+               motion and path planning, optimization and optimal control},
+  url_pdf   = {},
+  url_video = {https://youtu.be/I1aTCTc0J4U},
+  url_link  = {https://ieeexplore.ieee.org/document/8630448}
+}
+
 @article{bjelonic2019keep,
   author    = {Bjelonic, Marko and
                Bellicoso, C Dario and
@@ -47,7 +83,7 @@
   journal   = {IEEE Robotics and Automation Letters},
   year      = {2019},
   doi       = {arXiv:1809.03557},
-  abstract  = {We show dynamic locomotion strategies for wheeled quadrupedal
+  abstract  = {We show dynamic locomotion strategies for wheeled quadrupedal 
                robots, which combine the advantages of both walking and
                driving. The developed optimization framework tightly integrates
                the additional degrees of freedom introduced by the wheels. Our
@@ -178,36 +214,47 @@
 }
 
 @article{neunert2018whole,
-  title={Whole-body nonlinear model predictive control through contacts for quadrupeds},
-  author={Neunert, Michael and St{\"a}uble, Markus and Giftthaler, Markus and Bellicoso, Carmine D and Carius, Jan and Gehring, Christian and Hutter, Marco and Buchli, Jonas},
-  journal={IEEE Robotics and Automation Letters},
-  volume={3},
-  number={3},
-  pages={1458--1465},
-  year={2018},
-  publisher={IEEE}
+    title       = {Whole-body nonlinear model predictive control through contacts for quadrupeds},
+    author      = {Neunert, Michael and St{\"a}uble, Markus and Giftthaler, Markus and Bellicoso, C Dario and Carius, Jan and Gehring, Christian and Hutter, Marco and Buchli, Jonas},
+    abstract    = {
+                  In this letter, we present a whole-body nonlinear model predictive control approach for rigid body systems subject to contacts. We use a full-dynamic system model which also includes explicit contact dynamics. Therefore, contact locations, sequences, and timings are not prespecified but optimized by the solver. Yet, using numerical and software engineering allows for running the nonlinear Optimal Control solver at rates up to 190 Hz on a quadruped for a time horizon of half a second. This outperforms the state-of-the-art by at least one order of magnitude. Hardware experiments in the form of periodic and nonperiodic tasks are applied to two quadrupeds with different actuation systems. The obtained results underline the performance, transferability, and robustness of the approach.
+                  },
+    journal     = {IEEE Robotics and Automation Letters},
+    volume      = {3},
+    number      = {3},
+    pages       = {1458--1465},
+    year        = {2018},
+    month       = {jan},
+    publisher   = {IEEE}
 }
 
 @article{bellicoso2018dynamic,
-  title={Dynamic Locomotion Through Online Nonlinear Motion Optimization for Quadrupedal Robots},
-  author={Bellicoso, C Dario and Jenelten, Fabian and Gehring, Christian and Hutter, Marco},
-  journal={IEEE Robotics and Automation Letters},
-  volume={3},
-  number={3},
-  pages={2261--2268},
-  year={2018},
-  publisher={IEEE}
+    title       = {Dynamic Locomotion Through Online Nonlinear Motion Optimization for Quadrupedal Robots},
+    author      = {Bellicoso, C Dario and Jenelten, Fabian and Gehring, Christian and Hutter, Marco},
+    abstract    = {
+                  This letter presents a realtime motion planning and control method that enables a quadrupedal robot to execute dynamic gaits including trot, pace, and dynamic lateral walk, as well as gaits with full flight phases such as jumping, pronking, and running trot. The proposed method also enables smooth transitions between these gaits. Our approach relies on an online zero-moment point based motion planner which continuously updates the reference motion trajectory as a function of the contact schedule and the state of the robot. The reference footholds for each leg are obtained by solving a separate optimization problem. The resulting optimized motion plans are tracked by a hierarchical whole-body controller. Our framework has been tested in simulation and on ANYmal, a fully torque-controllable quadrupedal robot, both in simulation and on the actual robot.
+                  },
+    journal     = {IEEE Robotics and Automation Letters},
+    volume      = {3},
+    number      = {3},
+    pages       = {2261--2268},
+    year        = {2018},
+    month       = {jan},
+    publisher   = {IEEE}
 }
 
 @article{winkler2018gait,
-  title={Gait and trajectory optimization for legged systems through phase-based end-effector parameterization},
-  author={Winkler, Alexander W and Bellicoso, C Dario and Hutter, Marco and Buchli, Jonas},
-  journal={IEEE Robotics and Automation Letters},
-  volume={3},
-  number={3},
-  pages={1560--1567},
-  year={2018},
-  publisher={IEEE}
+    title       = {Gait and trajectory optimization for legged systems through phase-based end-effector parameterization},
+    abstract    = {
+                  We present a single trajectory optimization formulation for legged locomotion that automatically determines the gait sequence, step timings, footholds, swing-leg motions, and six-dimensional body motion over nonflat terrain, without any additional modules. Our phase-based parameterization of feet motion and forces allows to optimize over the discrete gait sequence using only continuous decision variables. The system is represented using a simplified centroidal dynamics model that is influenced by the feet's location and forces. We explicitly enforce friction cone constraints, depending on the shape of the terrain. The nonlinear programming problem solver generates highly dynamic motion plans with full flight phases for a variety of legged systems with arbitrary morphologies in an efficient manner. We validate the feasibility of the generated plans in simulation and on the real quadruped robot ANYmal. Additionally, the entire solver software TOWR, which used to generate these motions is made freely available.
+                  },
+    author      = {Winkler, Alexander W and Bellicoso, C Dario and Hutter, Marco and Buchli, Jonas},
+    journal     = {IEEE Robotics and Automation Letters},
+    volume      = {3},
+    number      = {3},
+    pages       = {1560--1567},
+    year        = {2018},
+    publisher   = {IEEE}
 }
 
 @article{bellicoso2018advances,
@@ -221,19 +268,54 @@
 }
 
 @inproceedings{fankhauser2018robust,
-  title={Robust Rough-Terrain Locomotion with a Quadrupedal Robot},
-  author={Fankhauser, P{\'e}ter and Bjelonic, Marko and Bellicoso, Dario and Miki, Takahiro and Hutter, Marco},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA 2018)},
-  year={2018},
-  organization={ETH Zurich}
+  author    = {Fankhauser, P{\'e}ter and
+               Bjelonic, Marko and
+               Bellicoso, Dario and
+               Miki, Takahiro and
+               Hutter, Marco},
+  title     = {Robust Rough-Terrain Locomotion with a Quadrupedal Robot},
+  booktitle = {IEEE International Conference on Robotics and Automation
+              (ICRA)},
+  year      = {2018},
+  doi       = {10.1109/ICRA.2018.8460731},
+  abstract  = {Robots working in natural, urban, and industrial settings need to
+               be able to navigate challenging environments. In this paper, we
+               present a motion planner for the perceptive rough-terrain
+               locomotion with quadrupedal robots. The planner finds safe
+               footholds along with collision-free swing-leg motions by
+               leveraging an acquired terrain map. To this end, we present a
+               novel pose optimization approach that enables the robot to climb
+               over significant obstacles. We experimentally validate our
+               approach with the quadrupedal robot ANYmal by autonomously
+               traversing obstacles such steps, inclines, and stairs. The
+               locomotion planner re-plans the motion at every step to cope with
+               disturbances and dynamic environments. The robot has no prior
+               knowledge of the scene, and all mapping, state estimation,
+               control, and planning is performed in real-time onboard the
+               robot.},
+  keywords  = {legged locomotion, robot sensing systems, planning,
+               collision avoidance},
+  url_video = {https://youtu.be/CpzQu25iLa0},
+  url_link  = {https://ieeexplore.ieee.org/document/8460731},
 }
 
-@article{hwangbo2015direct,
-  title={Direct state-to-action mapping for high DOF robots using ELM},
-  author={Hwangbo, Jemin and Gehring, Christian and Bellicoso, Dario and Fankhauser, P{\'e}ter and Siegwart, Roland and Hutter, Marco},
-  journal={Proceedings of the IROS 2015},
-  year={2015},
-  publisher={ETH-Z{\"u}rich}
+@inproceedings{hwangbo2015direct,
+    author      = {Hwangbo, Jemin and
+                   Gehring, Christian and
+                   Bellicoso, C. Dario and
+                   Fankhauser, P{\'e}ter and
+                   Siegwart, Roland and
+                   Hutter, Marco},
+    booktitle   = {2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+    title       ={Direct state-to-action mapping for high DOF robots using ELM},
+    year        ={2015},
+    volume      ={},
+    number      ={},
+    pages       ={2842-2847},
+    keywords    ={feedforward neural nets;intelligent robots;learning (artificial intelligence);mobile robots;optimal control;optimisation;trajectory optimisation (aerospace);
+                  direct state-to-action mapping;high-DOF robots;trajectory optimization;high-degree-of-freedom robots;information compression;optimal policy function;single-hidden layer feedforward neural network;SLFN;optimally-pruned extreme learning machine;OP-ELM;time-optimal control problem;analytical solution;foothold strategy optimizing;quadruped robot;Trajectory;Robots;Kernel;Approximation methods;Neural networks;Memory management;Optimization},
+    doi         ={10.1109/IROS.2015.7353768},
+    month       ={sep}
 }
 
 @inproceedings{kolvenbach2018efficient,
@@ -245,19 +327,42 @@
 }
 
 @article{bloesch2016primer,
-  title={A primer on the differential calculus of 3D orientations},
-  author={Bloesch, Michael and Sommer, Hannes and Laidlow, Tristan and Burri, Michael and Nuetzi, Gabriel and Fankhauser, P{\'e}ter and Bellicoso, Dario and Gehring, Christian and Leutenegger, Stefan and Hutter, Marco and others},
-  journal={arXiv preprint arXiv:1606.05285},
-  year={2016}
+    author        = {Michael Bloesch and
+                    Hannes Sommer and
+                    Tristan Laidlow and
+                    Michael Burri and
+                    Gabriel N{\"{u}}tzi and
+                    Peter Fankhauser and
+                    Dario Bellicoso and
+                    Christian Gehring and
+                    Stefan Leutenegger and
+                    Marco Hutter and
+                    Roland Siegwart},
+    title         = {A Primer on the Differential Calculus of 3D Orientations},
+    journal       = {CoRR},
+    volume        = {abs/1606.05285},
+    year          = {2016},
+    url           = {http://arxiv.org/abs/1606.05285},
+    archivePrefix = {arXiv},
+    eprint        = {1606.05285},
+    timestamp     = {Mon, 13 Aug 2018 16:46:10 +0200},
+    biburl        = {https://dblp.org/rec/bib/journals/corr/BloschSLBNFBGLH16},
+    bibsource     = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{hwangbo2019learning,
-  title={Learning agile and dynamic motor skills for legged robots},
-  author={Hwangbo, Jemin and Lee, Joonho and Dosovitskiy, Alexey and Bellicoso, Dario and Tsounis, Vassilios and Koltun, Vladlen and Hutter, Marco},
-  journal={Science Robotics},
-  volume={4},
-  number={26},
-  pages={eaau5872},
-  year={2019},
-  publisher={Science Robotics}
+@article {hwangbo2019learning,
+    author        = {Hwangbo, Jemin and Lee, Joonho and Dosovitskiy, Alexey and Bellicoso, Dario and Tsounis, Vassilios and Koltun, Vladlen and Hutter, Marco},
+    title         = {Learning agile and dynamic motor skills for legged robots},
+    volume        = {4},
+    number        = {26},
+    elocation-id  = {eaau5872},
+    year          = {2019},
+    doi           = {10.1126/scirobotics.aau5872},
+    publisher     = {Science Robotics},
+    abstract      = {
+                    Legged robots pose one of the greatest challenges in robotics. Dynamic and agile maneuvers of animals cannot be imitated by existing methods that are crafted by humans. A compelling alternative is reinforcement learning, which requires minimal craftsmanship and promotes the natural evolution of a control policy. However, so far, reinforcement learning research for legged robots is mainly limited to simulation, and only few and comparably simple examples have been deployed on real systems. The primary reason is that training with real robots, particularly with dynamically balancing systems, is complicated and expensive. In the present work, we introduce a method for training a neural network policy in simulation and transferring it to a state-of-the-art legged system, thereby leveraging fast, automated, and cost-effective data generation schemes. The approach is applied to the ANYmal robot, a sophisticated medium-dog{\textendash}sized quadrupedal system. Using policies trained in simulation, the quadrupedal machine achieves locomotion skills that go beyond what had been achieved with prior methods: ANYmal is capable of precisely and energy-efficiently following high-level body velocity commands, running faster than before, and recovering from falling even in complex configurations.
+                    },
+    URL           = {http://robotics.sciencemag.org/content/4/26/eaau5872},
+    eprint        = {http://robotics.sciencemag.org/content/4/26/eaau5872.full.pdf},
+    journal       = {Science Robotics}
 }

@@ -30,7 +30,7 @@
                human.},
   keywords  = {legged Robots, mobile manipulation, optimization and
                optimal control},
-  url_pdf   = {},
+  url_pdf   = {files/bellicoso2019alma.pdf},
   url_video = {https://youtu.be/XrcLXX4AEWE},
 }
 
@@ -65,7 +65,7 @@
                using an online motion planner.},
   keywords  = {legged robots, wheeled robots,
                motion and path planning, optimization and optimal control},
-  url_pdf   = {},
+  url_pdf   = {files/deviragh2019trajectory.pdf},
   url_video = {https://youtu.be/I1aTCTc0J4U},
   url_link  = {https://ieeexplore.ieee.org/document/8630448}
 }
@@ -105,7 +105,7 @@
                compared to their legged counterparts.},
   keywords  = {legged robots, wheeled robots, motion control,
                motion and path planning, optimization and optimal control},
-  url_pdf   = {},
+  url_pdf   = {bjelonic2019keep},
   url_video = {https://youtu.be/nGLUsyx9Vvc},
   url_link  = {https://arxiv.org/abs/1809.03557},
 }
@@ -200,17 +200,6 @@
   pages={3359--3365},
   year={2017},
   organization={IEEE}
-}
-
-@article{hutter2017anymal,
-  title={ANYmal-toward legged robots for harsh environments},
-  author={Hutter, Marco and Gehring, Christian and Lauber, Andreas and Gunther, F and Bellicoso, Carmine D and Tsounis, Vassilios and Fankhauser, P{\'e}ter and Diethelm, Remo and Bachmann, Samuel and Bl{\"o}sch, Michael and others},
-  journal={Advanced Robotics},
-  volume={31},
-  number={17},
-  pages={918--931},
-  year={2017},
-  publisher={Taylor \& Francis}
 }
 
 @article{neunert2018whole,
@@ -365,4 +354,144 @@
     URL           = {http://robotics.sciencemag.org/content/4/26/eaau5872},
     eprint        = {http://robotics.sciencemag.org/content/4/26/eaau5872.full.pdf},
     journal       = {Science Robotics}
+}
+
+@inproceedings{bjelonic2018skating,
+  author    = {Bjelonic, Marko and
+               Bellicoso, C Dario and
+               Tiryaki, M Efe and
+               Hutter, Marco},
+  title     = {Skating with a force controlled quadrupedal robot},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and
+               Systems (IROS)},
+  year      = {2018},
+  pages     = {7555--7561},
+  doi       = {10.1109/IROS.2018.8594504},
+  abstract  = {Traditional legged robots are capable of traversing challenging
+               terrain, but lack of energy efficiency when compared to wheeled
+               systems operating on flat environments. The combination of both
+               locomotion domains overcomes the trade-off between mobility and
+               efficiency. Therefore, this paper presents a novel motion planner
+               and controller which together enable a legged robot equipped with
+               skates to perform skating maneuvers. These are achieved by an
+               appropriate combination of planned reaction forces and gliding
+               motions. Our novel motion controller formulates a Virtual Model
+               Controller and an optimal contact force distribution which takes
+               into account the nonholonomic constraints introduced by the
+               skates. This approach has been tested on the torque-controllable
+               robot ANYmal equipped with passive wheels and ice skates as
+               end-effectors. We conducted experiments on flat and inclined
+               terrain, whereby we show that skating motions reduces the cost
+               of transport by up to 80{\,\%} with respect to traditional walking
+               gaits.},
+  keywords  = {legged locomotion, quadrupedal robot, skating, motion control,
+               force control},
+  url_pdf   = {files/bjelonic2018skating.pdf},
+  url_video = {https://youtu.be/fJfAWiylpxw},
+  url_link  = {https://ieeexplore.ieee.org/document/8594504}
+}
+
+@article{bellicoso2018advances,
+  author    = {Bellicoso, C Dario and
+               Bjelonic, Marko and
+               Wellhausen, Lorenz and
+               Sako, Dhionis and
+               Holtmann, Kai and
+               Guenther, Fabian and
+               Tranzatto, Marco and
+               Fankhauser, P{\'e}ter and
+               Hutter, Marco},
+  title     = {Advances in Real-World Applications for Legged Robots},
+  journal   = {Journal of Field Robotics},
+  volume    = {35},
+  number    = {8},
+  pages     = {1311-1326},
+  doi       = {10.1002/rob.21839},
+  year      = {2018},
+  abstract  = {This paper provides insight into the application of the
+               quadrupedal robot ANYmal in outdoor missions of industrial
+               inspection (ARGOS Challenge) and search and rescue (European
+               Robotics League (ERL)  Emergency Robots). In both competitions,
+               the legged robot had to autonomously and semi-autonomously
+               navigate in real-world scenarios to complete high-level tasks
+               such as inspection and payload delivery. In the ARGOS
+               competition, ANYmal used a rotating LiDAR sensor to
+               localize on the industrial site and map the terrain and obstacles
+               around the robot. In the ERL competition, additional Real-Time
+               Kinematic (RTK)-Global Positioning System (GPS) was used to
+               co-localize the legged robot with respect to a Micro Aerial
+               Vehicle (MAV) that creates maps from the aerial view. The high
+               mobility of legged robots allows overcoming large obstacles, e.g.
+               steps and stairs, with statically and dynamically stable gaits.
+               Moreover, the versatile machine can adapt its posture for
+               inspection and payload delivery. The paper concludes with insight
+               into the general learnings from the ARGOS and ERL challenges.},
+  keywords  = {legged robot, quadrupedal robot, localization, mapping,
+               challenge},
+  url_pdf   = {files/bellicoso2018advances.pdf},
+  url_video = {https://youtu.be/qrJlMze_xhQ},
+  url_link  = {https://doi.org/10.1002/rob.21839}
+}
+
+@article{hutter2017anymal,
+  author    = {Hutter, Marco and
+               Gehring, Christian and
+               Lauber, Andreas and
+               Gunther, F and
+               Bellicoso, Carmine D and
+               Tsounis, Vassilios and
+               Fankhauser, P{\'e}ter and
+               Diethelm, Remo and
+               Bachmann, Samuel and
+               Bl{\"o}sch, Michael and
+               Kolvenbach, Hendrik and
+               Bjelonic, Marko and
+               others},
+  title     = {ANYmal-toward legged robots for harsh environments},
+  journal   = {Advanced Robotics},
+  year      = {2017},
+  pages     = {918--931},
+  doi       = {10.1080/01691864.2017.1378591},
+  abstract  = {This paper provides a system overview about ANYmal, a quadrupedal
+               robot developed for operation in harsh environments. The 30 kg,
+               0.5 m tall robotic dog was built in a modular way for simple
+               maintenance and user-friendly handling, while focusing on high
+               mobility and dynamic motion capability. The system is tightly
+               sealed to reach IP67 standard and protected to survive falls.
+               Rotating lidar sensors in the front and back are used for
+               localization and terrain mapping and compact force sensors in the
+               feet provide accurate measurements about the contact situations.
+               The variable payload, such as a modular pan-tilt head with a
+               variety of inspection sensors, can be exchanged depending on the
+               application. Thanks to novel, compliant joint modules with
+               integrated electronics, ANYmal is precisely torque controllable
+               and very robust against impulsive loads during running or
+               jumping. In a series of experiments we demonstrate that ANYmal
+               can execute various climbing maneuvers, walking gaits, as well as
+               a dynamic trot and jump. As special feature, the joints can be
+               fully rotated to switch between X- and O-type kinematic
+               configurations. Detailed measurements unveil a low energy
+               consumption of 280 W during locomotion, which results in an
+               autonomy of more than 2 h.},
+  keywords  = {legged robot, quadruped robot, field robotics,
+               series elastic actuation, autonomous navigation},
+  url_pdf   = {files/hutter2017anymaltoward.pdf},
+  url_link  = {https://doi.org/10.1080/01691864.2017.1378591},
+}
+
+@inproceedings{bi2018realtime, 
+author      = {Bi, Thomas and
+               Fankhauser, P{\'e}ter and
+               Bellicoso, C. Dario and
+               Hutter, Marco}, 
+booktitle   = {2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+title       = {Real-Time Dance Generation to Music for a Legged Robot}, 
+year        = {2018}, 
+volume      = {}, 
+number      = {}, 
+pages       = {1038-1044}, 
+keywords    = {feedback;feedforward;humanoid robots;image motion analysis;legged locomotion;Markov processes;motion control;music;robot vision;synchronisation;music tempo;dance generation;feedforward delay controller;Markov chain;quadrupedal robot;robot whole-body controller reference input;feedback delay controller;time-shifting;delays;picked dance motion;base motions;stepping motions;dance motions;user-generated dance motion library;dance choreography;onboard microphone;live music;external stimuli;legged robot;Robot kinematics;Legged locomotion;Music;Delays;Trajectory;Real-time systems}, 
+doi         = {10.1109/IROS.2018.8593983}, 
+ISSN        = {2153-0866}, 
+month       = {oct},
 }

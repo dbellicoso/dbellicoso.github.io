@@ -1,12 +1,12 @@
 title: Dario Bellicoso
 logo: images/alma_pic.png
-email: bellicoso@mavt.ethz.ch
-description: Robotics Researcher and Control Systems Engineer
+email: dbellicoso@bostondynamics.com
+description: Robotics Research Scientist
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
 url: "https://dbellicoso.github.io/"
-twitter_username: leggedrobotics
+# twitter_username: leggedrobotics
 github_username:  dbellicoso
 github:
   is_project_page: true

@@ -3,7 +3,7 @@ layout: default
 ---
 ![Dario Bellicoso](/assets/images/alma_pic.png){: style="width:150px;display:block;padding:4px; margin-right:10px;border-radius:100%;display:block;float:left;"}
 <p style="text-align:justify">
-Hi! I am Dario, a Senior Staff Research Scientist at <a href="https://bostondynamics.com/">Boston Dynamics</a>, where I develop algorithms for motion planning, control, and reinforcement learning. I received my Ph.D. from the <a href="http://www.rsl.ethz.ch">Robotic Systems Lab</a> of <a href="https://www.ethz.ch/en.html">ETH Zurich</a> focusing on motion control and planning for multi-limbed walking robots. During my research, I developed algorithms that allow <a href="https://youtu.be/m1-s8iOJaI4">ANYmal</a>, a torque-controlled quadrupedal robot, to walk, run, jump, and open doors.
+Hi! I am Dario, a Senior Staff Research Scientist at <a href="https://bostondynamics.com/">Boston Dynamics</a>, where I develop algorithms for motion planning, control, and reinforcement learning. I received my Ph.D. from the <a href="http://www.rsl.ethz.ch">Robotic Systems Lab</a> of <a href="https://www.ethz.ch/en.html">ETH Zurich</a> focusing on motion planning and control for multi-limbed walking robots. During my research, I developed algorithms that allow <a href="https://youtu.be/m1-s8iOJaI4">ANYmal</a>, a torque-controlled quadrupedal robot, to walk, run, jump, and open doors.
 </p>
 <div style="padding-top:50px"></div>
 

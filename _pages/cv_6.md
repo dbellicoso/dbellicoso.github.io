@@ -3,9 +3,9 @@ layout: cv
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 5
+nav_order: 6
 cv_pdf: cv_dario_bellicoso.pdf
-description: 
+description:
 toc:
   sidebar: left
 ---

@@ -4,7 +4,7 @@
 
 title: Dario Bellicoso # the website title (if blank, full name will be used instead)
 first_name: Dario
-middle_name: 
+middle_name:
 last_name: Bellicoso
 email: bellicosodario@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -17,7 +17,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://dbellicoso.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: false # set to false to disable the back to top button
@@ -632,7 +632,7 @@ jsonresume:
   - education
   - publications
   - projects
-  - volunteer
+  - activities
   - awards
   - certificates
   - skills

@@ -3,7 +3,6 @@
  ******************************************************************************/
 // General Typography
 table {
-
   td,
   th {
     font-size: 1rem;
@@ -14,9 +13,7 @@ table {
   }
 }
 
-
 // Footer
-
 
 // About page header
 .post-header {
@@ -75,7 +72,6 @@ table {
     &:hover {
       transform: scale(1.01);
     }
-
   }
 }
 
@@ -97,7 +93,7 @@ table {
           }
         }
 
-        >em {
+        > em {
           color: var(--global-theme-color);
         }
       }
@@ -124,7 +120,6 @@ table {
   h2 {
     font-size: 1.75rem;
   }
-
 }
 
 .blog-metadata {
@@ -137,7 +132,6 @@ table {
     padding-bottom: 0rem;
 
     ul {
-
       p,
       li {
         padding: 0rem 0rem;
@@ -148,7 +142,6 @@ table {
       color: var(--global-text-color-light);
     }
   }
-
 }
 
 // Writing
@@ -171,7 +164,6 @@ table {
     margin-bottom: 1rem;
     text-align: right;
   }
-
 
   .card {
     border-style: hidden;
@@ -203,6 +195,26 @@ table {
 }
 
 // Force Inter globally, overriding any Bootstrap system-font defaults
-body, h1, h2, h3, h4, h5, h6, p, a, div, span, li, td, th {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif !important;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+span,
+li,
+td,
+th {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    sans-serif !important;
 }

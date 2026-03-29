@@ -84,9 +84,7 @@
       "studyType": "Postdoctoral Researcher",
       "startDate": "2019-01",
       "endDate": "2019-04",
-      "courses": [
-        "Coordinated locomotion and manipulation for walking robots equipped with robotic manipulators."
-      ]
+      "courses": ["Coordinated locomotion and manipulation for walking robots equipped with robotic manipulators."]
     },
     {
       "institution": "ETH Zurich",
@@ -169,22 +167,13 @@
       "name": "Programming",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "C++",
-        "Python"
-      ]
+      "keywords": ["C++", "Python"]
     },
     {
       "name": "Software Infrastructure",
       "level": "",
       "icon": "fa-solid fa-terminal",
-      "keywords": [
-        "GNU/Linux",
-        "ROS",
-        "Git",
-        "CMake",
-        "Bazel"
-      ]
+      "keywords": ["GNU/Linux", "ROS", "Git", "CMake", "Bazel"]
     },
     {
       "name": "Robotics",
@@ -222,31 +211,23 @@
     {
       "name": "ExPloy",
       "summary": "EXport and dePLOY Reinforcement Learning policies.",
-      "highlights": [
-        "Reinforcement Learning policy deployment framework"
-      ],
+      "highlights": ["Reinforcement Learning policy deployment framework"],
       "url": "https://github.com/bdaiinstitute/exploy"
     },
     {
       "name": "Kindr",
       "summary": "Kinematics and Dynamics for Robotics. A C++ library which provides interfaces and implementations of kinematic and dynamic quantities for robotics.",
-      "highlights": [
-        "C++ robotics library",
-        "Kinematic and dynamic quantities"
-      ],
+      "highlights": ["C++ robotics library", "Kinematic and dynamic quantities"],
       "url": "https://github.com/ANYbotics/kindr"
     },
     {
       "name": "DAMA ROB",
       "summary": "DArio and MArco's ROBotics toolbox, a robotics toolbox written for Matlab/Simulink which provides the equations of motion in symbolic form for a generic open chain mechanical system. The toolbox also generates a VR model for visualization.",
-      "highlights": [
-        "Matlab/Simulink robotics toolbox",
-        "Symbolic equations of motion"
-      ],
+      "highlights": ["Matlab/Simulink robotics toolbox", "Symbolic equations of motion"],
       "url": "http://www.damarob.altervista.org"
     }
   ],
-  "volunteer": [
+  "activities": [
     {
       "organization": "Robotic Systems Lab, ETH Zurich",
       "position": "Postdoctoral Researcher",

@@ -20,7 +20,8 @@ nav_order: 3
   <p style="text-align:justify">
   "Roadrunner” is a new bipedal wheeled robot prototype designed for multi-modal locomotion. It weighs around 15kg (33 lb.) and can seamlessly switch between its side-by-side and in-line wheel modes and stepping configurations depending on what is required for navigating its environment. The robot’s legs are entirely symmetric, allowing it to point its knees forward or backward, which can be used to avoid obstacles or manage specific movements.
 
-  A single control policy was trained to handle both side-by-side and in-line driving. Several behaviors, including standing up from various ground configurations and balancing on one wheel, were successfully deployed zero-shot on the hardware.
+A single control policy was trained to handle both side-by-side and in-line driving. Several behaviors, including standing up from various ground configurations and balancing on one wheel, were successfully deployed zero-shot on the hardware.
+
   </p>
 
   <hr>
@@ -39,7 +40,6 @@ nav_order: 3
   </p>
 
   <hr>
-
 
   <h2>ALMA</h2>
   <div class="row">

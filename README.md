@@ -78,3 +78,30 @@ Because `al-folio` is slightly more complex than a standard Jekyll site, pushing
    ```
 
 Within a minute or two, your changes will be built and live at `https://dbellicoso.github.io/`.
+
+
+## Troubleshooting
+
+If:
+```bash
+dyld[97331]: Library not loaded: /opt/homebrew/opt/gmp/lib/libgmp.10.dylib
+  Referenced from: <85CC2209-0AC2-3439-953D-1B0174069D90> /Users/dariobellicoso/.rbenv/versions/3.2.2/bin/ruby
+  Reason: tried: '/opt/homebrew/opt/gmp/lib/libgmp.10.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/gmp/lib/libgmp.10.dylib' (no such file), '/opt/homebrew/opt/gmp/lib/libgmp.10.dylib' (no such file)
+zsh: abort      bundle exec jekyll serve --lsi
+```
+
+reinstall:
+```bash
+# 1. Remove the broken Ruby build
+rbenv uninstall 3.2.2
+
+# 2. Reinstall it (this forces a fresh compilation against the new gmp)
+rbenv install 3.2.2
+
+# 3. Ensure it is set as your active version
+rbenv global 3.2.2
+
+# 4. Reinstall your project gems
+gem install bundler
+bundle install
+```

@@ -40,7 +40,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -634,6 +634,7 @@ jsonresume:
   - projects
   - activities
   - awards
+  - patents
   - certificates
   - skills
   - languages

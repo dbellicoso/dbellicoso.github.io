@@ -148,17 +148,31 @@
   ],
   "patents": [
     {
-      "name": "Systems and methods for grasp planning for a robotic manipulator",
-      "date": "2023-06",
-      "status": "Patent pending",
-      "authors": "Samuel Shaw, Logan W. Tutt, Shervin Talebi, C. Dario Bellicoso, Jennifer Barry, Neil M. Neville",
+      "name": "Nonlinear trajectory optimization for robotic devices",
+      "date": "2025-05",
+      "number": "US Patent App. 18/938,800",
+      "authors": "C. Dario Bellicoso, Logan W. Tutt, Neil M. Neville, Alexander D. Perkins",
       "country": "USA"
     },
     {
       "name": "Nonlinear trajectory optimization for robotic devices",
-      "date": "2023-04",
-      "status": "Patent pending",
+      "date": "2024-12",
+      "number": "US Patent 12,168,300",
       "authors": "C. Dario Bellicoso, Logan W. Tutt, Neil M. Neville, Alexander D. Perkins",
+      "country": "USA"
+    },
+    {
+      "name": "Object climbing by legged robots using training objects",
+      "date": "2024-06",
+      "number": "US Patent App. 18/537,269",
+      "authors": "Jared Di Carlo, Kevin Bergamin, C. Dario Bellicoso, Scott Kuindersma",
+      "country": "USA"
+    },
+    {
+      "name": "Systems and methods for grasp planning for a robotic manipulator",
+      "date": "2023-06",
+      "number": "US Patent App. 17/988,982",
+      "authors": "Samuel Shaw, Logan W. Tutt, Shervin Talebi, C. Dario Bellicoso, Jennifer Barry, Neil M. Neville",
       "country": "USA"
     }
   ],

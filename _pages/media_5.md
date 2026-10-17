@@ -26,7 +26,7 @@ nav_order: 5
   <h2>Casa Italia</h2>
   <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-      <img src="/assets/img/dario_casa_italia.png" alt="Casa Italia" style="width: 100%; height: auto;">
+      <img src="/assets/img/dario_casa_italia.jpg" alt="Casa Italia" style="width: 100%; height: auto;">
     </div>
   </div>
   <div class="caption">
@@ -41,11 +41,11 @@ nav_order: 5
   <h2>Newton - La natura degli occhi</h2>
   <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-      <img src="/assets/img/dario_newton_la_natura_degli_occhi.png" alt="Newton - La natura degli occhi" style="width: 100%; height: auto;">
+      <img src="/assets/img/dario_newton_la_natura_degli_occhi.jpg" alt="Newton - La natura degli occhi" style="width: 100%; height: auto;">
     </div>
   </div>
   <div class="caption">
-    Featured on RAI's Newton episode <a href="https://www.raiplay.it/video/2022/06/Newton-Pt6---La-natura-degli-occhi-8c7e2b05-3958-43f1-8bd4-077b8f5493ea.html?wt_mc=2.www.cpy.raiplay_vid_Newton">La natura degli occhi</a>
+    Featured on RAI's Newton episode <a href="https://www.raiplay.it/video/2022/06/Newton-Pt6---La-natura-degli-occhi-8c7e2b05-3958-43f1-8bd4-077b8f5493ea.html?wt_mc=2.www.cpy.raiplay_vid_Newton" target="_blank" rel="noopener noreferrer">La natura degli occhi</a>
   </div>
   <p style="text-align:justify">
     During my appearance on the Italian science program <em>Newton</em> (RAI), I discussed the evolving landscape of robotics and AI. The conversation centered on how autonomous systems leverage computer vision and perception to understand, interact with, and navigate complex real-world environments.
@@ -56,11 +56,11 @@ nav_order: 5
   <h2>Dataland</h2>
   <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-      <img src="/assets/img/dario_anymal_dataland.jpg" alt="Casa Italia" style="width: 100%; height: auto;">
+      <img src="/assets/img/dario_anymal_dataland.jpg" alt="Dataland" style="width: 100%; height: auto;">
     </div>
   </div>
   <div class="caption">
-    Live ANYmal Demonstration on <a href="https://www.rsi.ch/play/embed?urn=urn:rsi:video:1436049&startTime=8101&subdivisions=false">Dataland (RSI)</a>
+    Live ANYmal Demonstration on <a href="https://www.rsi.ch/play/embed?urn=urn:rsi:video:1436049&startTime=8101&subdivisions=false" target="_blank" rel="noopener noreferrer">Dataland (RSI)</a>
   </div>
   <p style="text-align:justify">
     In this segment for the live Swiss-Italian science broadcast <em>Dataland</em> (RSI), we showcased the ANYmal quadruped robot. The live demonstration highlighted the robot's locomotion capabilities and its potential for autonomous operation in complex environments.

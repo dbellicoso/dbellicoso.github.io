@@ -6,7 +6,7 @@ subtitle: Robotics • Controls • Reinforcement Learning • Optimization
 
 profile:
   align: right
-  image: alma_pic.png
+  image: alma_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 

@@ -90,9 +90,18 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
+          # ImageMagick generates the responsive .webp images referenced by _includes/figure.liquid
+          sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+      - name: Check responsive images 🖼️
+        run: |
+          # Fail before deploying if any .webp referenced in the HTML was not generated
+          missing=$(grep -rhoE '/assets/img/[^" ,]+\.webp' _site --include='*.html' | sort -u | while read -r f; do [ -f "_site$f" ] || echo "$f"; done)
+          if [ -n "$missing" ]; then
+            echo "::error::Missing generated images:"; echo "$missing"; exit 1
+          fi
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

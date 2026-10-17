@@ -18,25 +18,6 @@ layout: default
       <div class="social mt-2">
         <div class="contact-icons" style="font-size: 1.5rem;">{% include social.liquid %}</div>
 
-        <!-- Google Scholar stats, updated weekly by .github/workflows/update-scholar-stats.yml -->
-        {% assign scholar = site.data.scholar %}
-        {% if scholar and scholar.citations %}
-          <div class="scholar-stats">
-            <a href="https://scholar.google.com/citations?user={{ scholar.user_id }}" target="_blank" rel="noopener noreferrer">
-              <i class="ai ai-google-scholar"></i> Google Scholar</a
-            >
-            <span
-              >Citations <strong>{{ scholar.citations | number_with_delimiter }}</strong></span
-            >
-            <span
-              >h-index <strong>{{ scholar.h_index }}</strong></span
-            >
-            <span
-              >i10-index <strong>{{ scholar.i10_index }}</strong></span
-            >
-          </div>
-        {% endif %}
-
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}

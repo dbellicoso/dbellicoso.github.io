@@ -6,7 +6,7 @@ title: Dario Bellicoso # the website title (if blank, full name will be used ins
 first_name: Dario
 middle_name:
 last_name: Bellicoso
-email: bellicosodario@gmail.com
+email: # left blank to hide the email icon and the email entry in search
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Roboticist.
 footer_text: >

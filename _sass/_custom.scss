@@ -59,6 +59,29 @@ table {
     .contact-note {
       font-size: 0.9rem;
     }
+
+    // Google Scholar stats row
+    .scholar-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 1.25rem;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--global-text-color-light);
+
+      a {
+        color: var(--global-text-color-light);
+
+        &:hover {
+          color: var(--global-theme-color);
+        }
+      }
+
+      strong {
+        color: var(--global-text-color);
+        font-weight: 500;
+      }
+    }
   }
 }
 

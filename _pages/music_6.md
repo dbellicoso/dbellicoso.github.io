@@ -28,7 +28,7 @@ nav_order: 6
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
       <div>
-        <p style="text-align:justify">
+        <p>
           I played as Lead Guitarist in <strong>Winter of Life</strong>, a progressive metal band from Napoli, Italy.
           We composed, recorded, and released two albums, <em>Parentheses</em> and <em>Mother Madness</em>, as well as a few singles.
         </p>
@@ -45,7 +45,7 @@ nav_order: 6
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
       <div>
-        <p style="text-align:justify">
+        <p>
           With Communitas, a band based in Boston, MA, USA, we recorded and released <em>Teleonomy</em>, an experimental metal album.
         </p>
       </div>

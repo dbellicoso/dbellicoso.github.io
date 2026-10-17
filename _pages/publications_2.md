@@ -16,7 +16,7 @@ nav_order: 2
 ## Academic Publications
 
 <div class="publications">
-{% bibliography -f papers --query @*[type!=patent] %}
+{% bibliography -f papers --query !@patent %}
 </div>
 
 <br>
